@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "text": "A",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-450-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 2,
+        "text": "B",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-451-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 3,
+        "text": "C",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-452-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 4,
+        "text": "D",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-453-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 5,
+        "text": "E",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-454-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 6,
+        "text": "F",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-455-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 7,
+        "text": "G",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-456-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 8,
+        "text": "H",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-457-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 9,
+        "text": "I",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-458-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 10,
+        "text": "J",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-459-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 11,
+        "text": "K",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-460-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 12,
+        "text": "L",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-461-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 13,
+        "text": "M",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-462-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 14,
+        "text": "N",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-463-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 15,
+        "text": "O",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-464-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 16,
+        "text": "P",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-465-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 17,
+        "text": "Q",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-466-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 18,
+        "text": "R",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-467-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 19,
+        "text": "S",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-468-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 20,
+        "text": "T",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-469-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 21,
+        "text": "U",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-470-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 22,
+        "text": "V",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-471-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 23,
+        "text": "W",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-472-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 24,
+        "text": "X",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-473-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 25,
+        "text": "Y",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-474-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 26,
+        "text": "Z",
+        "type": "img",
+        "src": "https://media.spreadthesign.com/image/500/alphabet-letter-475-1.jpg",
+        "category": "alphabet"
+    },
+    {
+        "id": 29,
+        "text": "Je suis",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51149.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 30,
+        "text": "un étudiant",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51150.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 31,
+        "text": "une étudiante",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51151.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 32,
+        "text": "Je viens de",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51152.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 33,
+        "text": "Paris",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51153.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 34,
+        "text": "J'habite à",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51154.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 35,
+        "text": "J'aime",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51155.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 36,
+        "text": "le sport",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51156.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 37,
+        "text": "la musique",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51157.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 38,
+        "text": "Je parle",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51158.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 39,
+        "text": "français",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51159.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 40,
+        "text": "anglais",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51160.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 41,
+        "text": "espagnol",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51161.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 42,
+        "text": "Je travaille comme",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51162.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 43,
+        "text": "professeur",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51163.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 44,
+        "text": "médecin",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51164.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 45,
+        "text": "ingénieur",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51165.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 46,
+        "text": "Je m'appelle",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51166.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 47,
+        "text": "Je suis né(e) à",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51167.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 48,
+        "text": "J'ai",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51168.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 49,
+        "text": "ans",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51169.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 50,
+        "text": "Je suis marié(e)",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51170.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 51,
+        "text": "Je suis célibataire",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51171.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 52,
+        "text": "Je travaille dans",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51172.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 53,
+        "text": "le secteur de la santé",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51173.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 54,
+        "text": "la technologie",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51174.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 55,
+        "text": "l'éducation",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51175.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 56,
+        "text": "Je parle aussi",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51176.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 57,
+        "text": "allemand",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51177.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 58,
+        "text": "italien",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51178.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 59,
+        "text": "Je viens de finir mes études",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51179.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 60,
+        "text": "Je suis passionné(e) par",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51180.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 61,
+        "text": "la photographie",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51181.mp4",
+        "category": "presentation"
+    },
+    {
+        "id": 62,
+        "text": "la lecture",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/13/51182.mp4",
+        "category": "presentation"
+    }
+]

@@ -1,0 +1,19 @@
+/* palette theme */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #816AFF;
+  --tertiary-color: #FFFF;
+  --borderButton-color: #EFF1F5;
+  font-family: "TypoGlobal";
+}
+
+@font-face {
+  font-family: 'TypoGlobal';
+  src: url('./BalooBhaina-Regular.ttf');
+}
