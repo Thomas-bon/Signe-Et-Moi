@@ -11,11 +11,11 @@
                 <p>{{ info.text }}</p>
             </div>
             <div id="infoSign">
-                <img v-if="clickedItems.includes(index) && info.type === 'img'" :src="info.src" alt="Image d'une personne qui signe"
-                    :class="{ show: clickedItems.includes(index) }" >
-                <video v-if="clickedItems.includes(index) && info.type === 'vid'" :src="info.src" muted="" loop="" autoplay="" playsinline=""
-                    :class="{ show: clickedItems.includes(index) }"></video>
-            </div>  
+                <img v-if="clickedItems.includes(index) && info.type === 'img'" :src="info.src"
+                    alt="Image d'une personne qui signe" :class="{ show: clickedItems.includes(index) }">
+                <video v-if="clickedItems.includes(index) && info.type === 'vid'" :src="info.src" muted="" loop=""
+                    autoplay="" playsinline="" :class="{ show: clickedItems.includes(index) }"></video>
+            </div>
 
 
         </div>
@@ -46,14 +46,14 @@ export default {
 
         toggleClicked(index) {
             if (this.clickedItems.includes(index)) {
-                this.clickedItems = this.clickedItems.filter(i => i !== index)
+                this.clickedItems = [];
             } else {
-                this.clickedItems.push(index);
+                this.clickedItems = [index];
             }
 
         },
     },
-        computed: {
+    computed: {
 
         searchBar() {
             return this.signsJson.filter(search =>
@@ -73,7 +73,11 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
+body {
+    overflow: hidden;
+}
+
 .allCategories {
     width: 80%;
 
@@ -146,8 +150,8 @@ p {
 .media {
     display: block;
     width: 100vw;
-    max-height: 50vh;  
-    object-fit: contain; 
+    max-height: 50vh;
+    object-fit: contain;
 }
 
 #infoSign {
@@ -156,7 +160,7 @@ p {
 }
 
 .show {
+    width: 100vw;
     margin-top: 5%;
 }
-
 </style>

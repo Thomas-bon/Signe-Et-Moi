@@ -57,7 +57,8 @@ export default {
             showFeedback: false,
             finished: false,
             generatedOptions: [],
-            scoreStore: score
+            scoreStore: score,
+            signsSucess:[]
 
         };
     },
@@ -86,6 +87,7 @@ export default {
             console.log('Vérification de la réponse:', option, this.currentQuestion.text);
             if (option === this.currentQuestion.text) {
                 score.increment();
+                score.goodAnswer(this.currentQuestion);
                 console.log(score.score)
 
             }

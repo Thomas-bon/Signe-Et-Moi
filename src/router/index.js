@@ -16,6 +16,11 @@ const router = createRouter({
       component: () => import('../views/LearnView.vue'),
     },
     {
+      path: '/sign-for-us',
+      name: 'sign-fr-us',
+      component: () => import('../views/SignForUs.vue'),
+    },
+    {
       path: '/learn/allcategory',
       name: 'allcategory',
       component: () => import('../views/AllCategoryOfExpressionsView.vue'),
@@ -35,13 +40,7 @@ const router = createRouter({
       name: 'revise',
       component: () => import('../views/ReviseView.vue'),
     },
-    {
-      path: '/profile',
-      name: 'profile',
-      component: () => import('../views/ProfileView.vue'),
-    },
 
-    
   ],
 })
 

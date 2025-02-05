@@ -18,10 +18,6 @@
 
       </RouterLink>
 
-      <RouterLink to="/profile" :class="{ 'active': $route.path === '/profile' }">
-          <img src="../../src/assets/ProfileIcon.svg" alt="Icone de Livre" id="profileButton" class="buttonNav">
-
-      </RouterLink>
     </div>
 
   </nav>
@@ -63,7 +59,7 @@ import { RouterLink, RouterView } from 'vue-router'
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 20%;
   height: 100%;
   width: 100%;
 }
