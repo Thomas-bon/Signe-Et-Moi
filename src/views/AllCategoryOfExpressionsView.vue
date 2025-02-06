@@ -3,9 +3,9 @@
     <div id="placementCategories">
         <div v-for="(category, index) in categories" :key="index" class="allCategories">
 
-                <RouterLink :to="{ name:  category  }" class="button">
-                   <p>{{ category }}</p>
-                </RouterLink>
+            <RouterLink :to="{ name: category }" class="button">
+                <p>{{ category }}</p>
+            </RouterLink>
 
 
         </div>
@@ -29,6 +29,7 @@ export default {
 
         getAllCategories() {
             this.categories = [...new Set(this.signsJson.map(sign => sign.category))]
+                .filter(category => category !== 'alphabet')
             console.log(this.categories)
         }
 
@@ -43,13 +44,10 @@ export default {
 </script>
 
 <style scoped>
-
-
-
 .allCategories {
     height: 8%;
     width: 80%;
-    
+
 }
 
 .button {
@@ -63,12 +61,14 @@ export default {
 
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-p{
+
+p {
     color: var(--tertiary-color);
 
 }
+
 #placementCategories {
     overflow: scroll;
     width: 100vw;

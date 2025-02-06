@@ -21,7 +21,7 @@
 
     </div>
 
-
+    
 </template>
 
 <script>
@@ -30,6 +30,17 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>
+
+#learningWhat {
+    height: 80vh;
+    width: 100vw;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .whatToLearn {
     width: 90vw;
     height: 45%;
@@ -40,7 +51,7 @@ import { RouterLink } from 'vue-router'
 }
 
 .button {
-  position: absolute;
+    position: absolute;
   bottom: 0;
   /* right: 0; */
   height: 20%;
@@ -63,23 +74,24 @@ import { RouterLink } from 'vue-router'
     display: flex;
     justify-content: flex-end;
 
+    background-image: url(../assets/alphabetHomePage.svg);
+    background-size: 60%;
+    background-position: center left;
+    background-repeat: no-repeat;
+
 }
 
 #Alphabet p {
     text-align: right;
 }
 
-#learningWhat {
-    height: 85vh;
-    width: 100vw;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+#Express {
+    background-image: url(../assets/catExpressLearn.svg);
+    background-size: 90%;
+    background-position: center right;
+    background-repeat: no-repeat;
 }
-
-
 
 p {
     /* position: absolute; */

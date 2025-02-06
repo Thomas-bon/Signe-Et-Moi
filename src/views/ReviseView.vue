@@ -1,7 +1,7 @@
 <template>
 
     <div id="headerSearch">
-        <input v-model="signName" type="text" name="searchBar" id="searchBar">
+        <input v-model="signName" type="text" name="searchBar" placeholder="Rechercher..">
     </div>
 
     <div id="placementCategories">
@@ -78,6 +78,35 @@ body {
     overflow: hidden;
 }
 
+input {
+    font-family: 'TypoGlobal';
+    font-size: 24px;
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    border-radius: 16px;
+    border: var(--borderButton-color) solid 5px;
+    box-shadow: 7px 7px 2px 0 var(--borderButton-color);
+    padding-left: 10px;
+    width: 75%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus {
+
+    
+    border: var(--secondary-color) solid 5px;
+    box-shadow: 0 5px 0 0 var(--secondary-color);
+    outline: var(--secondary-color);
+}
+
+::placeholder {
+    opacity: 40%;
+}
+
 .allCategories {
     width: 80%;
 
@@ -90,10 +119,10 @@ body {
 
     font-family: 'TypoGlobal';
     font-size: 24px;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     border-radius: 16px;
-    border: var(--secondary-color) solid 5px;
-    box-shadow: 0 7px 0 0 var(--secondary-color);
+    border: var(--borderButton-color) solid 5px;
+    box-shadow: 0 7px 0 0 var(--borderButton-color);
 
     display: flex;
     justify-content: center;
@@ -101,7 +130,7 @@ body {
 }
 
 p {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 
 }
 
@@ -126,21 +155,6 @@ p {
     width: 100vw;
 }
 
-#searchBar {
-    font-family: 'TypoGlobal';
-    font-size: 30px;
-    color: var(--primary-color);
-    background-color: var(--tertiary-color);
-    border-radius: 16px;
-    border: var(--borderButton-color) solid 5px;
-    box-shadow: 7px 7px 2px 0 var(--borderButton-color);
-    padding-left: 10px;
-    width: 80%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #infoSign.with-media {
     margin-top: 120px;
@@ -162,5 +176,9 @@ p {
 .show {
     width: 100vw;
     margin-top: 5%;
+}
+
+img {
+    border-radius: 15px;
 }
 </style>

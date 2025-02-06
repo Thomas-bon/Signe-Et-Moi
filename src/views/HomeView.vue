@@ -3,7 +3,7 @@
     <div id="centerPage">
 
         <div id="playerPart">
-            <div id="welcome">Bonjour Thomas !</div>
+            <div id="welcome">Bonjour {{nameUser}} !</div>
             <div id="progress" class="component">
                 <p id="rank"> {{ playerRank }} </p>
                 <div id="progressBar">
@@ -47,11 +47,16 @@
 <script>
 import { RouterLink } from 'vue-router';
 import { score } from "../stores/score";
+import { name } from "../stores/name";
 
 export default {
     computed: {
         numberOfExpressMasterise() {
             return score.expressLearned;
+        },
+
+        nameUser() {
+            return name.name;
         },
 
         playerRank() {
@@ -116,7 +121,7 @@ export default {
 
 #centerPage {
     margin-top: 10px;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -134,7 +139,7 @@ export default {
 }
 
 #welcome {
-    width: 60%;
+    width: 90%;
     height: 30%;
 
     font-size: 28px;

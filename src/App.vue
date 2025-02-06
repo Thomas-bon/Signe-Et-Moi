@@ -5,10 +5,20 @@ import { callWithAsyncErrorHandling } from 'vue';
 import { score } from "./stores/score"
 
 export default {
+  name: "Home",
   data() {
     return {
       route: this.$route
     }
+  },
+
+  mounted() {
+    const name = localStorage.getItem("userName");
+
+    if (!name) {
+      this.$router.push("/what-is-your-name")
+    }
+
   },
 
   computed: {
