@@ -5,11 +5,24 @@ import { callWithAsyncErrorHandling } from 'vue';
 import { score } from "./stores/score"
 
 export default {
+  data() {
+    return {
+      route: this.$route
+    }
+  },
+
+  computed: {
+    showNavbar() {
+      return this.$route.path !== '/what-is-your-name'
+
+    }
+  },
 
   components: {
     navigationBar,
     RouterLink,
     RouterView
+
   },
 
   watch: {
@@ -30,7 +43,7 @@ export default {
   <RouterView />
 
 
-  <navigationBar />
+  <navigationBar v-if="showNavbar" />
 
 </template>
 
