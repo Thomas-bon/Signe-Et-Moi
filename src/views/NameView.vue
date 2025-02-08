@@ -11,9 +11,10 @@
         </div>
 
         <div id="responseUser">
-            <input v-model="pseudo" type="text" placeholder="Entrez votre nom ici..">
+            <input v-model="pseudo" minlength="1" maxlength="12" type="text" placeholder="Entrez votre nom ici.."
+                required>
 
-            <button @click="submit" >Valider</button>
+            <button @click="submit">Valider</button>
         </div>
     </main>
 </template>
@@ -29,11 +30,12 @@ export default {
     },
     methods: {
         submit() {
+            if (this.pseudo.length >= 1 && this.pseudo.length <= 12) {
+                name.getName(this.pseudo)
+                console.log(this.pseudo)
+                this.$router.push("/")
 
-        name.getName(this.pseudo)
-        console.log(this.pseudo)
-        this.$router.push("/")
-
+            }
         }
     }
 }
@@ -43,7 +45,7 @@ export default {
 main {
     height: 100vh;
     width: 100vw;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;

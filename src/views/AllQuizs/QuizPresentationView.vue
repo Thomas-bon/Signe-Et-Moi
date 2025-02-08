@@ -1,11 +1,11 @@
 <template>
 
-<Quiz type="presentation"/>
+<Quiz type="Presentation"/>
 
 </template>
 
 <script>
-import Quiz from "../components/quiz.vue"
+import Quiz from "../../components/quiz.vue"
 
 export default {
   components: {

@@ -30,16 +30,29 @@ const router = createRouter({
       name: 'allcategory',
       component: () => import('../views/AllCategoryOfExpressionsView.vue'),
     },
+
+
+
+
     {
       path: '/learn/allcategory/alphabet',
       name: 'alphabet',
-      component: () => import('../views/QuizAlphabetView.vue'),
+      component: () => import('../views/AllQuizs/QuizAlphabetView.vue'),
     },
     {
       path: '/learn/allcategory/presentation',
       name: 'presentation',
-      component: () => import('../views/QuizPresentationView.vue'),
+      component: () => import('../views/AllQuizs/QuizPresentationView.vue'),
     },
+    {
+      path: '/learn/allcategory/locutions',
+      name: 'locutions',
+      component: () => import('../views/AllQuizs/QuizLocutionsView.vue'),
+    },
+
+
+
+
     {
       path: '/revise',
       name: 'revise',

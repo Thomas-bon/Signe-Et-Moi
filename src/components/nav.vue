@@ -75,7 +75,6 @@ export default {
 </script>
 
 <style scoped>
-/* Indicateur animé */
 .indicator {
   position: absolute;
   bottom: 45px;
@@ -90,19 +89,16 @@ export default {
   pointer-events: none;
 }
 
-/* Style des icônes */
 .buttonNav {
   width: 50px;
   height: 50px;
   transition: transform 0.6s ease;
 }
 
-/* Effet sur l'icône active */
 .active .buttonNav {
   transform: translateY(-30px);
 }
 
-/* Conteneur des icônes */
 #allButtonNav {
   display: flex;
   position: relative;
@@ -113,7 +109,6 @@ export default {
   padding: 15px 0;
 }
 
-/* Barre de navigation */
 nav {
   height: 10vh;
   width: 100vw;
@@ -122,4 +117,7 @@ nav {
   background-color: #212121;
   border-radius: 20px 20px 0 0;
 }
+
+
+
 </style>

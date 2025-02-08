@@ -3,7 +3,7 @@
     <div id="placementCategories">
         <div v-for="(category, index) in categories" :key="index" class="allCategories">
 
-            <RouterLink :to="{ name: category }" class="button">
+            <RouterLink :to="{ name: category.toLowerCase() }" class="button">
                 <p>{{ category }}</p>
             </RouterLink>
 
@@ -29,7 +29,7 @@ export default {
 
         getAllCategories() {
             this.categories = [...new Set(this.signsJson.map(sign => sign.category))]
-                .filter(category => category !== 'alphabet')
+                .filter(category => category !== 'Alphabet')
             console.log(this.categories)
         }
 

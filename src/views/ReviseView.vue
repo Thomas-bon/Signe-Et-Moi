@@ -93,6 +93,9 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 0.2s ease-in;
+
 }
 
 input:focus {
@@ -176,9 +179,8 @@ p {
 .show {
     width: 100vw;
     margin-top: 5%;
+    border-radius: 15px;
+
 }
 
-img {
-    border-radius: 15px;
-}
 </style>

@@ -1,10 +1,8 @@
-<!-- inverser finished et !finished pour remettre a la normal -->
-
 <template>
 
     <div id="centerTitle">
         <div class="title" v-if="!finished"> Que veut dire ce signe ? </div>
-        <div class="title" v-if="finished">Bravo Thomas tu as fini le cours ! 🎉🎉🎉</div>
+        <div class="title" v-if="finished">Bravo {{ userName }} tu as fini le cours ! 🎉🎉🎉</div>
     </div>
 
     <div id="placeThevid">
@@ -42,9 +40,10 @@
 
 
 
-<script >
+<script>
 import signsData from "@/assets/signs.json";
 import { score } from "../stores/score";
+import { name } from "../stores/name";
 import { RouterLink } from "vue-router";
 
 export default {
@@ -58,14 +57,17 @@ export default {
             finished: false,
             generatedOptions: [],
             scoreStore: score,
-            signsSucess:[]
+            signsSucess: []
 
         };
     },
     computed: {
+
+        userName() {
+            return name.name
+        },
+
         currentQuestion() {
-
-
             return this.filteredSigns[this.currentQuestionIndex];
 
         },
@@ -84,11 +86,11 @@ export default {
             if (this.finished) return;
             if (this.showFeedback) return;
             this.showFeedback = true;
-            console.log('Vérification de la réponse:', option, this.currentQuestion.text);
+            // console.log('Vérification de la réponse:', option, this.currentQuestion.text);
             if (option === this.currentQuestion.text) {
                 score.increment();
                 score.goodAnswer(this.currentQuestion);
-                console.log(score.score)
+                // console.log(score.score)
 
             }
         },
@@ -115,41 +117,33 @@ export default {
 
 
         randomOptions() {
-            // Filtrer les signes en fonction de la catégorie (alphabet ou expressions)
-            this.filteredSigns = this.questions.filter(question => question.category === this.type);
 
-            // console.log(this.filteredSigns);  // Pour déboguer, afficher les signes filtrés
-
-            this.filteredSigns.sort(() => Math.random() - 0.5);
-
-
-            if (this.filteredSigns.length === 0) {
-                console.error('Aucune question trouvée pour cette catégorie');
-                return;
-            }
-
-
-            if (!this.currentQuestion.text) return;
+            if (!this.currentQuestion || !this.currentQuestion.text) return
 
             const correctAnswer = this.currentQuestion.text;
-            console.log('correctAnswer:', correctAnswer); 
+            // console.log('correctAnswer:', correctAnswer);
 
-            // Récupérer les mauvaises réponses en excluant la bonne réponse
-            const allOptions = this.questions
-                .filter(question => question.category === this.type)
+            const allOptions = this.filteredSigns
                 .map(q => q.text)
                 .filter(text => text !== correctAnswer);
 
-            // Mélanger les mauvaises réponses et en prendre une au hasard
             const wrongAnswers = allOptions.sort(() => 0.5 - Math.random()).slice(0, 1);
 
-            // Mélanger la bonne réponse avec les mauvaises réponses
             this.generatedOptions = [correctAnswer, ...wrongAnswers].sort(() => Math.random() - 0.5);
         }
 
     },
     created() {
         this.questions = signsData;
+
+        this.filteredSigns = this.questions.filter(question => question.category === this.type);
+        this.filteredSigns.sort(() => Math.random() - 0.5);
+
+        if (this.filteredSigns.length === 0) {
+            console.error('Aucune question trouvée pour cette catégorie');
+            return;
+        }
+
         this.randomOptions();
     }
 
@@ -160,9 +154,8 @@ export default {
 </script>
 
 <style scoped>
-
 body {
-    overflow: hidden    ;
+    overflow: hidden;
 }
 
 .title {
