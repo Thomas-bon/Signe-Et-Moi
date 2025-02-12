@@ -269,15 +269,18 @@ body {
 }
 
 @supports (-webkit-touch-callout: none) {
-    #placeThevid {#placeThevid {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8%;
-}
-    margin-top: 0%;
-}
-}
 
+    #placeThevid {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+    }
+
+    .title {
+        margin-top: 2%;
+    }
+
+}
 </style>
