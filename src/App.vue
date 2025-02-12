@@ -50,7 +50,7 @@ export default {
 
 
 
-  <RouterView />
+    <RouterView />
 
 
   <navigationBar v-if="showNavbar" />

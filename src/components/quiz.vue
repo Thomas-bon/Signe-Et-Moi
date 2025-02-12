@@ -267,4 +267,17 @@ body {
 .finish {
     display: none;
 }
+
+@supports (-webkit-touch-callout: none) {
+    #placeThevid {#placeThevid {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+    margin-top: 0%;
+}
+}
+
 </style>

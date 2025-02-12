@@ -3,9 +3,14 @@
     <div id="centerPage">
 
         <div id="playerPart">
-            <div id="welcome">Bonjour {{nameUser}} !</div>
+            <div id="welcome">Bonjour {{ nameUser }} !</div>
             <div id="progress" class="component">
-                <p id="rank"> {{ playerRank }} </p>
+                <transition name="rank-transition" mode="out-in">
+                    <p id="rank" :key="playerRank">
+                        {{ playerRank }}
+                    </p>
+                </transition>
+
                 <div id="progressBar">
                     <div id="progressRank" :style="{ width: progressBarWidth }"></div>
 
@@ -168,7 +173,57 @@ export default {
     color: var(--tertiary-color);
 
     text-align: center;
+
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.rank-transition-enter-active,
+.rank-transition-leave-active {
+    transition: opacity 0.3s ease-out, transform 0.5s cubic-bezier(0.22, 1.25, 0.32, 1);
+}
+
+    .rank-transition-enter {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.rank-transition-enter-to {
+    opacity: 1;
+    transform: scale(1);
+    animation: pop-bounce 0.4s ease-out;
+}
+
+.rank-transition-leave {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.rank-transition-leave-to {
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+@keyframes pop-bounce {
+    0% {
+        transform: scale(0.5);
+    }
+
+    60% {
+        transform: scale(1.15);
+    }
+
+    80% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
 
 #progressBar {
     width: 85%;
@@ -189,6 +244,8 @@ export default {
     border-radius: 25px;
 
     background-color: var(--secondary-color);
+
+    transition: 1.5s ease-in-out;
 }
 
 #learnExpressions {
@@ -318,19 +375,20 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 
 }
 
 #stats p {
     color: var(--tertiary-color);
-    margin-bottom: 10%
+    /* margin-bottom: 10% */
 }
 
 #number {
     color: var(--secondary-color);
     font-size: 80px;
     height: 50px;
+    margin-top: 10%;
 
     display: flex;
     justify-content: center;

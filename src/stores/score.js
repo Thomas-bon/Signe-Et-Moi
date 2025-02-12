@@ -14,12 +14,16 @@ export const score = reactive({
   reset() {
     let allPointProfile = this.profileScore + this.score;
     localStorage.setItem('profileScore', allPointProfile);
-    this.profileScore = allPointProfile;
+
+    setTimeout(() => {
+      this.profileScore = allPointProfile;
+
+    }, 200);
 
     setTimeout(() => {
       this.score = 0;
       localStorage.setItem('scoreCurrentQuiz', this.score);
-    }, 400);
+    }, 500);
   },
 
 
