@@ -12,6 +12,7 @@ export default {
     Quiz
   }
 }
+
 </script>
 
 <style>

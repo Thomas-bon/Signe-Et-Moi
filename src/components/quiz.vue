@@ -69,15 +69,14 @@ export default {
 
         currentQuestion() {
             return this.filteredSigns[this.currentQuestionIndex];
-
+            
         },
 
     },
     props: {
         type: {
             validator(value, props) {
-                // The value must match one of these strings
-                return ['alphabet', 'expressions'].includes(value)
+                return ['Alphabet', 'Presentation', 'Locutions', 'Color'].includes(value)
             }
         },
     },
@@ -139,6 +138,8 @@ export default {
         this.filteredSigns = this.questions.filter(question => question.category === this.type);
         this.filteredSigns.sort(() => Math.random() - 0.5);
 
+        console.log("Filtered Signs:", this.filteredSigns);
+        
         if (this.filteredSigns.length === 0) {
             console.error('Aucune question trouvée pour cette catégorie');
             return;

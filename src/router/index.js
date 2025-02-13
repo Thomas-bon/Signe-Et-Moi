@@ -52,7 +52,7 @@ const router = createRouter({
     {
       path: '/learn/allcategory/color',
       name: 'color',
-      component: () => import('../views/AllQuizs/QuizLocutionsView.vue'),
+      component: () => import('../views/AllQuizs/QuizColorView.vue'),
     },
 
 
