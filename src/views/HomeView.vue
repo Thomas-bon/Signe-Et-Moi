@@ -77,7 +77,7 @@ export default {
             if (rankScore < 720) return "Ch'Légendaire";
             if (rankScore < 800) return "Ch'Légendaire+";
             if (rankScore < 880) return "Ch'Divin";
-            if (rankScore < 960) return "Ch'Ch'Divin+";
+            if (rankScore < 960) return "Ch'Divin+";
             return "Ch'Divin+"
         },
 
