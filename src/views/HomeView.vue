@@ -66,25 +66,39 @@ export default {
 
         playerRank() {
             const rankScore = score.profileScore;
-            if (rankScore < 40) return "Ch'Apprenti";
-            if (rankScore < 80) return "Ch'Apprenti+";
-            if (rankScore < 120) return "Ch'Aguerri";
-            if (rankScore < 180) return "Ch'Aguerri+";
-            if (rankScore < 260) return "Maitre chat";
-            return "Grand maitre chat"
+            if (rankScore < 80) return "Ch'Apprenti";
+            if (rankScore < 160) return "Ch'Apprenti+";
+            if (rankScore < 240) return "Ch'Aguerri";
+            if (rankScore < 320) return "Ch'Aguerri+";
+            if (rankScore < 400) return "Ch'Expert";
+            if (rankScore < 480) return "Ch'Expert+";
+            if (rankScore < 560) return "Ch'Maître";
+            if (rankScore < 640) return "Ch'Maître+";
+            if (rankScore < 720) return "Ch'Légendaire";
+            if (rankScore < 800) return "Ch'Légendaire+";
+            if (rankScore < 880) return "Ch'Divin";
+            if (rankScore < 960) return "Ch'Ch'Divin+";
+            return "Ch'Divin+"
         },
 
         progressBarWidth() {
             const rankScore = score.profileScore
 
             const ranks = [
-                { name: "Ch'Apprenti", min: 0, max: 40 },
-                { name: "Ch'Apprenti+", min: 40, max: 80 },
-                { name: "Ch'Aguerri", min: 80, max: 120 },
-                { name: "Ch'Aguerri+", min: 120, max: 180 },
-                { name: "Maitre chat", min: 180, max: 260 },
-                { name: "Grand maitre chat", min: 260, max: 350 }
+                { name: "Ch'Apprenti", min: 0, max: 80 },
+                { name: "Ch'Apprenti+", min: 80, max: 160 },
+                { name: "Ch'Aguerri", min: 160, max: 240 },
+                { name: "Ch'Aguerri+", min: 240, max: 320 },
+                { name: "Ch'Expert", min: 320, max: 400 },
+                { name: "Ch'Expert+", min: 400, max: 480 },
+                { name: "Ch'Maître", min: 480, max: 560 },
+                { name: "Ch'Maître+", min: 560, max: 640 },
+                { name: "Ch'Légendaire", min: 640, max: 720 },
+                { name: "Ch'Légendaire+", min: 720, max: 800 },
+                { name: "Ch'Divin", min: 800, max: 880 },
+                { name: "Ch'Divin+", min: 880, max: 960 }
             ];
+
 
             //on récupère le rang actuel par rapport à nos points 
             let currentRank = ranks.find(r => rankScore >= r.min && rankScore < r.max);
@@ -182,7 +196,7 @@ export default {
     transition: opacity 0.3s ease-out, transform 0.5s cubic-bezier(0.22, 1.25, 0.32, 1);
 }
 
-    .rank-transition-enter {
+.rank-transition-enter {
     opacity: 0;
     transform: scale(0.5);
 }

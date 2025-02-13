@@ -523,6 +523,201 @@
         "type": "vid",
         "src": "https://media.spreadthesign.com/video/mp4/10/285195.mp4",
         "category": "Locutions"
+    },
+    {
+        "id": 78,
+        "text": "Argent",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/5928.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 79,
+        "text": "Beige",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/156626.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 80,
+        "text": "Blanc",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/4423.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 81,
+        "text": "Bleu",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/6092.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 82,
+        "text": "Blond",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/14468.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 83,
+        "text": "Bronze",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/158386.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 84,
+        "text": "Clair",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/158712.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 85,
+        "text": "Couleur",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/3566.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 86,
+        "text": "Doré",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/284161.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 87,
+        "text": "Foncé",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/265747.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 88,
+        "text": "Gris",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/14700.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 89,
+        "text": "Incolore",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/24282.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 90,
+        "text": "Jaune",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/5785.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 100,
+        "text": "Marron",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/7656.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 101,
+        "text": "Noir",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/4493.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 102,
+        "text": "Nuances de couleur",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/42547.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 102,
+        "text": "Obscurité",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/180448.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 103,
+        "text": "Orange",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/266095.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 104,
+        "text": "Primaire",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/23763.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 105,
+        "text": "Pâle",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/42578.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 106,
+        "text": "Rose",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/14689.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 107,
+        "text": "Rouge",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/4497.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 108,
+        "text": "Roux",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/29977.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 109,
+        "text": "Secondaire",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/42588.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 110,
+        "text": "Teinte",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/41584.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 111,
+        "text": "Transparence",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/283641.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 112,
+        "text": "Vert",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/5715.mp4",
+        "category": "Color"
+    },
+    {
+        "id": 113,
+        "text": "Violet",
+        "type": "vid",
+        "src": "https://media.spreadthesign.com/video/mp4/10/14690.mp4",
+        "category": "Color"
     }
-
 ]

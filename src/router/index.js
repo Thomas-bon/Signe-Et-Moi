@@ -49,6 +49,11 @@ const router = createRouter({
       name: 'locutions',
       component: () => import('../views/AllQuizs/QuizLocutionsView.vue'),
     },
+    {
+      path: '/learn/allcategory/color',
+      name: 'color',
+      component: () => import('../views/AllQuizs/QuizLocutionsView.vue'),
+    },
 
 
 

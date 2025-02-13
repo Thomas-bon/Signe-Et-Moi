@@ -61,7 +61,7 @@ export default {
       } else if (this.$route.path === "/revise") {
         this.updateIndicator("revise");
       } else {
-        this.showIndicator = false; // Masquer le cercle si aucune icône n'est active
+        this.showIndicator = false; 
       }
     }
 
